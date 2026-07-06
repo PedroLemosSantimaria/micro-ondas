@@ -1,24 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "ASqs0hqncEY=",
+  "dgSpecHash": "5EI2atWBu3g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Api\\Microondas.Api.csproj",
+  "projectFilePath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Microondas.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
-    "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+    "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
+    "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\swashbuckle.aspnetcore\\10.2.3\\swashbuckle.aspnetcore.10.2.3.nupkg.sha512",
+    "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.2.3\\swashbuckle.aspnetcore.swagger.10.2.3.nupkg.sha512",
+    "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.2.3\\swashbuckle.aspnetcore.swaggergen.10.2.3.nupkg.sha512",
+    "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.2.3\\swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "message": "O pacote 'Microsoft.OpenApi' 2.0.0 tem uma alta vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-v5pm-xwqc-g5wc",
-      "projectPath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Api\\Microondas.Api.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Api\\Microondas.Api.csproj",
-      "libraryId": "Microsoft.OpenApi",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

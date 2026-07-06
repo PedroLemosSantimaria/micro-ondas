@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Api\\Microondas.Api.csproj": {}
+    "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Microondas.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Api\\Microondas.Api.csproj": {
+    "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Microondas.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Api\\Microondas.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Microondas.Api.csproj",
         "projectName": "Microondas.Api",
-        "projectPath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Api\\Microondas.Api.csproj",
+        "projectPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Microondas.Api.csproj",
         "packagesPath": "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Api\\obj\\",
+        "outputPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Microondas.Core.csproj": {
-                "projectPath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Microondas.Core.csproj"
+              "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Microondas.Core.csproj": {
+                "projectPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Microondas.Core.csproj"
               },
-              "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj"
+              "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj"
               }
             }
           }
@@ -62,6 +62,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.2.3, )"
             }
           },
           "imports": [
@@ -501,14 +505,14 @@
         }
       }
     },
-    "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Microondas.Core.csproj": {
+    "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Microondas.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Microondas.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Microondas.Core.csproj",
         "projectName": "Microondas.Core",
-        "projectPath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Microondas.Core.csproj",
+        "projectPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Microondas.Core.csproj",
         "packagesPath": "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\obj\\",
+        "outputPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -842,14 +846,14 @@
         }
       }
     },
-    "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj": {
+    "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj",
         "projectName": "Microondas.Infrastructure",
-        "projectPath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -871,8 +875,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Microondas.Core.csproj": {
-                "projectPath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Microondas.Core.csproj"
+              "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Microondas.Core.csproj": {
+                "projectPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Microondas.Core.csproj"
               }
             }
           }

@@ -1,34 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\",
+  "WorkspaceRootPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9502060F-FCDE-45AB-AC4C-6FB0B4412967}|Microondas.Infrastructure\\Microondas.Infrastructure.csproj|c:\\users\\mybox marcenaria\\source\\repos\\microondasdigital\\microondas.infrastructure\\data\\customprograms.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9502060F-FCDE-45AB-AC4C-6FB0B4412967}|Microondas.Infrastructure\\Microondas.Infrastructure.csproj|solutionrelative:microondas.infrastructure\\data\\customprograms.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E356C75D-4B7A-D8F1-0701-0A68BE64C846}|Microondas.Api\\Microondas.Api.csproj|c:\\users\\mybox marcenaria\\documents\\github\\micro-ondas\\microondas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E356C75D-4B7A-D8F1-0701-0A68BE64C846}|Microondas.Api\\Microondas.Api.csproj|solutionrelative:microondas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FF5E853-1E96-4470-939B-F7D7954CCBDF}|Microondas.Core\\Microondas.Core.csproj|c:\\users\\mybox marcenaria\\source\\repos\\microondasdigital\\microondas.core\\entities\\heatingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FF5E853-1E96-4470-939B-F7D7954CCBDF}|Microondas.Core\\Microondas.Core.csproj|solutionrelative:microondas.core\\entities\\heatingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E356C75D-4B7A-D8F1-0701-0A68BE64C846}|Microondas.Api\\Microondas.Api.csproj|c:\\users\\mybox marcenaria\\documents\\github\\micro-ondas\\microondas.api\\controllers\\programscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E356C75D-4B7A-D8F1-0701-0A68BE64C846}|Microondas.Api\\Microondas.Api.csproj|solutionrelative:microondas.api\\controllers\\programscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9502060F-FCDE-45AB-AC4C-6FB0B4412967}|Microondas.Infrastructure\\Microondas.Infrastructure.csproj|c:\\users\\mybox marcenaria\\source\\repos\\microondasdigital\\microondas.infrastructure\\repositories\\heatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9502060F-FCDE-45AB-AC4C-6FB0B4412967}|Microondas.Infrastructure\\Microondas.Infrastructure.csproj|solutionrelative:microondas.infrastructure\\repositories\\heatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E356C75D-4B7A-D8F1-0701-0A68BE64C846}|Microondas.Api\\Microondas.Api.csproj|c:\\users\\mybox marcenaria\\documents\\github\\micro-ondas\\microondas.api\\controllers\\microwavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E356C75D-4B7A-D8F1-0701-0A68BE64C846}|Microondas.Api\\Microondas.Api.csproj|solutionrelative:microondas.api\\controllers\\microwavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FF5E853-1E96-4470-939B-F7D7954CCBDF}|Microondas.Core\\Microondas.Core.csproj|c:\\users\\mybox marcenaria\\source\\repos\\microondasdigital\\microondas.core\\interfaces\\iheatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FF5E853-1E96-4470-939B-F7D7954CCBDF}|Microondas.Core\\Microondas.Core.csproj|solutionrelative:microondas.core\\interfaces\\iheatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E356C75D-4B7A-D8F1-0701-0A68BE64C846}|Microondas.Api\\Microondas.Api.csproj|c:\\users\\mybox marcenaria\\documents\\github\\micro-ondas\\microondas.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E356C75D-4B7A-D8F1-0701-0A68BE64C846}|Microondas.Api\\Microondas.Api.csproj|solutionrelative:microondas.api\\middlewares\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FF5E853-1E96-4470-939B-F7D7954CCBDF}|Microondas.Core\\Microondas.Core.csproj|c:\\users\\mybox marcenaria\\source\\repos\\microondasdigital\\microondas.core\\services\\microwaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FF5E853-1E96-4470-939B-F7D7954CCBDF}|Microondas.Core\\Microondas.Core.csproj|solutionrelative:microondas.core\\services\\microwaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39762759-1AF4-FACB-BB22-2A5A3BC1213A}|Microondas.Core\\Microondas.Core.csproj|c:\\users\\mybox marcenaria\\documents\\github\\micro-ondas\\microondas.core\\services\\microwaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39762759-1AF4-FACB-BB22-2A5A3BC1213A}|Microondas.Core\\Microondas.Core.csproj|solutionrelative:microondas.core\\services\\microwaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FF5E853-1E96-4470-939B-F7D7954CCBDF}|Microondas.Core\\Microondas.Core.csproj|c:\\users\\mybox marcenaria\\source\\repos\\microondasdigital\\microondas.core\\services\\programservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FF5E853-1E96-4470-939B-F7D7954CCBDF}|Microondas.Core\\Microondas.Core.csproj|solutionrelative:microondas.core\\services\\programservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DEB1B45D-D95E-4ABB-F2CA-37F3607A6F6F}|Microondas.Infrastructure\\Microondas.Infrastructure.csproj|c:\\users\\mybox marcenaria\\documents\\github\\micro-ondas\\microondas.infrastructure\\data\\customprograms.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DEB1B45D-D95E-4ABB-F2CA-37F3607A6F6F}|Microondas.Infrastructure\\Microondas.Infrastructure.csproj|solutionrelative:microondas.infrastructure\\data\\customprograms.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FF5E853-1E96-4470-939B-F7D7954CCBDF}|Microondas.Core\\Microondas.Core.csproj|c:\\users\\mybox marcenaria\\source\\repos\\microondasdigital\\microondas.core\\dtos\\responses\\microwavesessionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9FF5E853-1E96-4470-939B-F7D7954CCBDF}|Microondas.Core\\Microondas.Core.csproj|solutionrelative:microondas.core\\dtos\\responses\\microwavesessionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39762759-1AF4-FACB-BB22-2A5A3BC1213A}|Microondas.Core\\Microondas.Core.csproj|c:\\users\\mybox marcenaria\\documents\\github\\micro-ondas\\microondas.core\\entities\\heatingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39762759-1AF4-FACB-BB22-2A5A3BC1213A}|Microondas.Core\\Microondas.Core.csproj|solutionrelative:microondas.core\\entities\\heatingprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEB1B45D-D95E-4ABB-F2CA-37F3607A6F6F}|Microondas.Infrastructure\\Microondas.Infrastructure.csproj|c:\\users\\mybox marcenaria\\documents\\github\\micro-ondas\\microondas.infrastructure\\repositories\\heatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEB1B45D-D95E-4ABB-F2CA-37F3607A6F6F}|Microondas.Infrastructure\\Microondas.Infrastructure.csproj|solutionrelative:microondas.infrastructure\\repositories\\heatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39762759-1AF4-FACB-BB22-2A5A3BC1213A}|Microondas.Core\\Microondas.Core.csproj|c:\\users\\mybox marcenaria\\documents\\github\\micro-ondas\\microondas.core\\interfaces\\iheatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39762759-1AF4-FACB-BB22-2A5A3BC1213A}|Microondas.Core\\Microondas.Core.csproj|solutionrelative:microondas.core\\interfaces\\iheatingprogramrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39762759-1AF4-FACB-BB22-2A5A3BC1213A}|Microondas.Core\\Microondas.Core.csproj|c:\\users\\mybox marcenaria\\documents\\github\\micro-ondas\\microondas.core\\services\\programservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39762759-1AF4-FACB-BB22-2A5A3BC1213A}|Microondas.Core\\Microondas.Core.csproj|solutionrelative:microondas.core\\services\\programservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39762759-1AF4-FACB-BB22-2A5A3BC1213A}|Microondas.Core\\Microondas.Core.csproj|c:\\users\\mybox marcenaria\\documents\\github\\micro-ondas\\microondas.core\\dtos\\responses\\microwavesessionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39762759-1AF4-FACB-BB22-2A5A3BC1213A}|Microondas.Core\\Microondas.Core.csproj|solutionrelative:microondas.core\\dtos\\responses\\microwavesessionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,15 +54,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Microondas.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Program.cs",
+              "RelativeToolTip": "Microondas.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T22:09:18.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ProgramsController.cs",
+              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Controllers\\ProgramsController.cs",
+              "RelativeDocumentMoniker": "Microondas.Api\\Controllers\\ProgramsController.cs",
+              "ToolTip": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Controllers\\ProgramsController.cs",
+              "RelativeToolTip": "Microondas.Api\\Controllers\\ProgramsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T22:09:00.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MicrowaveController.cs",
+              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Controllers\\MicrowaveController.cs",
+              "RelativeDocumentMoniker": "Microondas.Api\\Controllers\\MicrowaveController.cs",
+              "ToolTip": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Controllers\\MicrowaveController.cs",
+              "RelativeToolTip": "Microondas.Api\\Controllers\\MicrowaveController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T22:08:09.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Microondas.Api\\Middlewares\\ExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Api\\Middlewares\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Microondas.Api\\Middlewares\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T22:07:41.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HeatingProgram.cs",
-              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Entities\\HeatingProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Entities\\HeatingProgram.cs",
               "RelativeDocumentMoniker": "Microondas.Core\\Entities\\HeatingProgram.cs",
-              "ToolTip": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Entities\\HeatingProgram.cs",
+              "ToolTip": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Entities\\HeatingProgram.cs",
               "RelativeToolTip": "Microondas.Core\\Entities\\HeatingProgram.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,11 +123,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "customPrograms.json",
-              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Infrastructure\\Data\\customPrograms.json",
+              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Data\\customPrograms.json",
               "RelativeDocumentMoniker": "Microondas.Infrastructure\\Data\\customPrograms.json",
-              "ToolTip": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Infrastructure\\Data\\customPrograms.json",
+              "ToolTip": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Data\\customPrograms.json",
               "RelativeToolTip": "Microondas.Infrastructure\\Data\\customPrograms.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -68,11 +136,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "HeatingProgramRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Infrastructure\\Repositories\\HeatingProgramRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Repositories\\HeatingProgramRepository.cs",
               "RelativeDocumentMoniker": "Microondas.Infrastructure\\Repositories\\HeatingProgramRepository.cs",
-              "ToolTip": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Infrastructure\\Repositories\\HeatingProgramRepository.cs",
+              "ToolTip": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Repositories\\HeatingProgramRepository.cs",
               "RelativeToolTip": "Microondas.Infrastructure\\Repositories\\HeatingProgramRepository.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAAwIEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -81,11 +149,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "IHeatingProgramRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Interfaces\\IHeatingProgramRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Interfaces\\IHeatingProgramRepository.cs",
               "RelativeDocumentMoniker": "Microondas.Core\\Interfaces\\IHeatingProgramRepository.cs",
-              "ToolTip": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Interfaces\\IHeatingProgramRepository.cs",
+              "ToolTip": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Interfaces\\IHeatingProgramRepository.cs",
               "RelativeToolTip": "Microondas.Core\\Interfaces\\IHeatingProgramRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -96,9 +164,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MicrowaveService.cs",
-              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Services\\MicrowaveService.cs",
+              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Services\\MicrowaveService.cs",
               "RelativeDocumentMoniker": "Microondas.Core\\Services\\MicrowaveService.cs",
-              "ToolTip": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Services\\MicrowaveService.cs",
+              "ToolTip": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Services\\MicrowaveService.cs",
               "RelativeToolTip": "Microondas.Core\\Services\\MicrowaveService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,11 +175,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ProgramService.cs",
-              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Services\\ProgramService.cs",
+              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Services\\ProgramService.cs",
               "RelativeDocumentMoniker": "Microondas.Core\\Services\\ProgramService.cs",
-              "ToolTip": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Services\\ProgramService.cs",
+              "ToolTip": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Services\\ProgramService.cs",
               "RelativeToolTip": "Microondas.Core\\Services\\ProgramService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -120,11 +188,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "MicrowaveSessionResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Dtos\\Responses\\MicrowaveSessionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Dtos\\Responses\\MicrowaveSessionResponse.cs",
               "RelativeDocumentMoniker": "Microondas.Core\\Dtos\\Responses\\MicrowaveSessionResponse.cs",
-              "ToolTip": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Core\\Dtos\\Responses\\MicrowaveSessionResponse.cs",
+              "ToolTip": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Dtos\\Responses\\MicrowaveSessionResponse.cs",
               "RelativeToolTip": "Microondas.Core\\Dtos\\Responses\\MicrowaveSessionResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

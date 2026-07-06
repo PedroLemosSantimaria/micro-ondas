@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TGE5DAk5oAA=",
+  "dgSpecHash": "Uma07HdqWNw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mybox Marcenaria\\source\\repos\\MicroondasDigital\\Microondas.Tests\\Microondas.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Tests\\Microondas.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\coverlet.collector\\6.0.4\\coverlet.collector.6.0.4.nupkg.sha512",
     "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\microsoft.codecoverage\\17.14.1\\microsoft.codecoverage.17.14.1.nupkg.sha512",
