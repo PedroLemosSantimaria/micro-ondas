@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Microondas.Api/Microondas.Api.csproj" />
+  <Project Path="Microondas.Core/Microondas.Core.csproj" />
+  <Project Path="Microondas.Infrastructure/Microondas.Infrastructure.csproj" />
+  <Project Path="Microondas.Tests/Microondas.Tests.csproj" />
+</Solution>
