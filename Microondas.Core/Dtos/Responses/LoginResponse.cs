@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Microondas.Core.Dtos.Responses
+﻿namespace Microondas.Core.Dtos.Responses
 {
-    internal class LoginResponse
+    public class LoginResponse
     {
+        public string Token { get; set; }
+        public string UserName { get; set; }
+        public string Message { get; set; }
     }
 }

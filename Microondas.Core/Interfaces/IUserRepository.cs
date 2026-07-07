@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microondas.Core.Models;
 
 namespace Microondas.Core.Interfaces
 {
-    internal interface IUserRepository
+    public interface IUserRepository
     {
+        AuthUser GetByUserName(string userName);
     }
 }

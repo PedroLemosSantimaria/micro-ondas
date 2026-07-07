@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using Microondas.Core.Entities;
 using Microondas.Core.Exceptions;
 using Microondas.Core.Interfaces;
@@ -14,84 +13,77 @@ namespace Microondas.Core.Services
         public MicrowaveService(IHeatingProgramRepository heatingProgramRepository)
         {
             this.heatingProgramRepository = heatingProgramRepository;
+            currentSession = CreateIdleSession();
         }
 
         public MicrowaveSession StartManual(int? timeInSeconds, int? power)
         {
-            if (currentSession != null && currentSession.IsRunning)
-            {
-                if (currentSession.IsPredefinedProgram)
-                    throw new BusinessException("Não é permitido adicionar tempo em programa pré-definido.");
-
-                currentSession.AddThirtySeconds();
-                return currentSession;
-            }
-
-            if (currentSession != null && currentSession.IsPaused)
-            {
-                currentSession.Resume();
-                return currentSession;
-            }
-
             if (!timeInSeconds.HasValue && !power.HasValue)
             {
                 return StartQuick();
             }
 
-            var finalPower = power ?? 10;
-
-            ValidateManualHeating(timeInSeconds, finalPower);
-
-            currentSession = new MicrowaveSession(
-                timeInSeconds.Value,
-                finalPower,
-                ".",
-                false
-            );
-
-            currentSession.Start();
-            return currentSession;
-        }
-
-        public MicrowaveSession StartQuick()
-        {
-            if (currentSession != null && currentSession.IsRunning)
-            {
-                if (currentSession.IsPredefinedProgram)
-                    throw new BusinessException("Não é permitido adicionar tempo em programa pré-definido.");
-
-                currentSession.AddThirtySeconds();
-                return currentSession;
-            }
-
             if (currentSession != null && currentSession.IsPaused)
             {
                 currentSession.Resume();
                 return currentSession;
             }
 
-            currentSession = new MicrowaveSession(30, 10, ".", false);
-            currentSession.Start();
+            if (currentSession != null && currentSession.IsRunning)
+            {
+                if (!currentSession.AllowTimeAddition)
+                    throw new BusinessException("Não é permitido adicionar tempo em programas pré-definidos.");
+
+                currentSession.AddThirtySeconds();
+                return currentSession;
+            }
+
+            var finalTime = timeInSeconds ?? 30;
+            var finalPower = power ?? 10;
+
+            ValidateManualHeating(finalTime, finalPower);
+
+            currentSession = new MicrowaveSession(
+                finalTime,
+                finalPower,
+                ".",
+                allowTimeAddition: true);
+
+            return currentSession;
+        }
+
+        public MicrowaveSession StartQuick()
+        {
+            if (currentSession != null && currentSession.IsPaused)
+            {
+                currentSession.Resume();
+                return currentSession;
+            }
+
+            if (currentSession != null && currentSession.IsRunning)
+            {
+                if (!currentSession.AllowTimeAddition)
+                    throw new BusinessException("Não é permitido adicionar tempo em programas pré-definidos.");
+
+                currentSession.AddThirtySeconds();
+                return currentSession;
+            }
+
+            currentSession = new MicrowaveSession(
+                30,
+                10,
+                ".",
+                allowTimeAddition: true);
+
             return currentSession;
         }
 
         public MicrowaveSession StartProgram(string programName)
         {
             if (string.IsNullOrWhiteSpace(programName))
-                throw new BusinessException("Programa não informado.");
+                throw new BusinessException("Informe o nome do programa.");
 
-            if (currentSession != null && currentSession.IsPaused)
-            {
-                currentSession.Resume();
-                return currentSession;
-            }
-
-            if (currentSession != null && currentSession.IsRunning)
-                throw new BusinessException("Já existe um aquecimento em andamento.");
-
-            var program = heatingProgramRepository
-                .GetAllPrograms()
-                .FirstOrDefault(x => x.Name.Equals(programName, StringComparison.OrdinalIgnoreCase));
+            var program = heatingProgramRepository.GetProgramByName(programName);
 
             if (program == null)
                 throw new BusinessException("Programa não encontrado.");
@@ -100,11 +92,10 @@ namespace Microondas.Core.Services
                 program.TimeInSeconds,
                 program.Power,
                 program.HeatingChar,
-                true,
-                program.Name
-            );
+                allowTimeAddition: false,
+                programName: program.Name,
+                isPredefinedProgram: program.IsDefault);
 
-            currentSession.Start();
             return currentSession;
         }
 
@@ -112,7 +103,8 @@ namespace Microondas.Core.Services
         {
             if (currentSession == null)
             {
-                return CreateEmptySession();
+                currentSession = CreateIdleSession();
+                return currentSession;
             }
 
             if (currentSession.IsRunning)
@@ -123,22 +115,18 @@ namespace Microondas.Core.Services
 
             if (currentSession.IsPaused)
             {
-                currentSession.Cancel();
-                currentSession = null;
-                return CreateEmptySession();
+                currentSession = CreateCancelledSession();
+                return currentSession;
             }
 
-            currentSession = null;
-            return CreateEmptySession();
+            currentSession = CreateIdleSession();
+            return currentSession;
         }
 
         public MicrowaveSession Resume()
         {
-            if (currentSession == null)
-                throw new BusinessException("Nenhum aquecimento para continuar.");
-
-            if (!currentSession.IsPaused)
-                throw new BusinessException("O aquecimento não está pausado.");
+            if (currentSession == null || !currentSession.IsPaused)
+                throw new BusinessException("Não existe aquecimento pausado para retomar.");
 
             currentSession.Resume();
             return currentSession;
@@ -147,7 +135,10 @@ namespace Microondas.Core.Services
         public MicrowaveSession Tick()
         {
             if (currentSession == null)
-                throw new BusinessException("Nenhum aquecimento em andamento.");
+                throw new BusinessException("Não existe aquecimento em andamento.");
+
+            if (!currentSession.IsRunning)
+                return currentSession;
 
             currentSession.Tick();
             return currentSession;
@@ -156,26 +147,40 @@ namespace Microondas.Core.Services
         public MicrowaveSession GetCurrentSession()
         {
             if (currentSession == null)
-                return CreateEmptySession();
+            {
+                currentSession = CreateIdleSession();
+            }
 
             return currentSession;
         }
 
-        private void ValidateManualHeating(int? timeInSeconds, int power)
+        public MicrowaveSession Clear()
         {
-            if (!timeInSeconds.HasValue)
-                throw new BusinessException("Informe um tempo válido.");
+            currentSession = CreateIdleSession();
+            return currentSession;
+        }
 
-            if (timeInSeconds.Value < 1 || timeInSeconds.Value > 120)
+        private void ValidateManualHeating(int timeInSeconds, int power)
+        {
+            if (timeInSeconds < 1 || timeInSeconds > 120)
                 throw new BusinessException("Informe um tempo válido entre 1 segundo e 2 minutos.");
 
             if (power < 1 || power > 10)
                 throw new BusinessException("A potência deve estar entre 1 e 10.");
         }
 
-        private MicrowaveSession CreateEmptySession()
+        private MicrowaveSession CreateIdleSession()
         {
-            return new MicrowaveSession(0, 0, ".", false);
+            var session = new MicrowaveSession(1, 10, ".", true);
+            session.MarkAsIdle();
+            return session;
+        }
+
+        private MicrowaveSession CreateCancelledSession()
+        {
+            var session = new MicrowaveSession(1, 10, ".", true);
+            session.Cancel();
+            return session;
         }
     }
 }

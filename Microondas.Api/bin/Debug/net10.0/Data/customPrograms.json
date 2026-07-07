@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "Arroz",
+    "Food": "Arroz pronto",
+    "TimeInSeconds": 120,
+    "Power": 6,
+    "HeatingChar": "$",
+    "Instructions": "Mexer antes de servir.",
+    "IsDefault": false
+  }
+]

@@ -11,5 +11,6 @@ namespace Microondas.Core.Interfaces
         MicrowaveSession Resume();
         MicrowaveSession Tick();
         MicrowaveSession GetCurrentSession();
+        MicrowaveSession Clear();
     }
 }

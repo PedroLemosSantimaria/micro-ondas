@@ -1,9 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microondas.Core.Dtos.Requests;
+using Microondas.Core.Dtos.Responses;
+using Microondas.Core.Entities;
 using Microondas.Core.Interfaces;
+using System.Collections.Generic;
 
 namespace Microondas.Api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class ProgramsController : ControllerBase
@@ -19,7 +24,7 @@ namespace Microondas.Api.Controllers
         public IActionResult GetAll()
         {
             var programs = programService.GetAllPrograms();
-            return Ok(programs);
+            return Ok(ApiResponse<List<HeatingProgram>>.Ok(programs));
         }
 
         [HttpPost("custom")]
@@ -27,10 +32,7 @@ namespace Microondas.Api.Controllers
         {
             programService.CreateCustomProgram(request);
 
-            return Ok(new
-            {
-                message = "Programa customizado salvo com sucesso."
-            });
+            return Ok(ApiResponse<object>.Ok(null, "Programa customizado salvo com sucesso."));
         }
     }
 }

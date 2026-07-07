@@ -9,14 +9,14 @@ C:\Users\Mybox Marcenaria\source\repos\MicroondasDigital\Microondas.Core\obj\Deb
 C:\Users\Mybox Marcenaria\source\repos\MicroondasDigital\Microondas.Core\obj\Debug\net10.0\refint\Microondas.Core.dll
 C:\Users\Mybox Marcenaria\source\repos\MicroondasDigital\Microondas.Core\obj\Debug\net10.0\Microondas.Core.pdb
 C:\Users\Mybox Marcenaria\source\repos\MicroondasDigital\Microondas.Core\obj\Debug\net10.0\ref\Microondas.Core.dll
-C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\bin\Debug\net10.0\Microondas.Core.deps.json
-C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\bin\Debug\net10.0\Microondas.Core.dll
-C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\bin\Debug\net10.0\Microondas.Core.pdb
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.AssemblyInfoInputs.cache
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.AssemblyInfo.cs
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.csproj.CoreCompileInputs.cache
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.sourcelink.json
+C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\bin\Debug\net10.0\Microondas.Core.deps.json
+C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\bin\Debug\net10.0\Microondas.Core.dll
+C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\bin\Debug\net10.0\Microondas.Core.pdb
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.dll
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\refint\Microondas.Core.dll
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.pdb

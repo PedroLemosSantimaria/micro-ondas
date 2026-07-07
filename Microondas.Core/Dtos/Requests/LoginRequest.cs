@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Microondas.Core.Dtos.Requests
+﻿namespace Microondas.Core.Dtos.Requests
 {
-    internal class LoginRequest
+    public class LoginRequest
     {
+        public string UserName { get; set; }
+        public string Password { get; set; }
     }
 }

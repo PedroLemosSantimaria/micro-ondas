@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microondas.Core.Models;
 
 namespace Microondas.Core.Interfaces
 {
-    internal interface ITokenService
+    public interface ITokenService
     {
+        string GenerateToken(AuthUser user);
     }
 }

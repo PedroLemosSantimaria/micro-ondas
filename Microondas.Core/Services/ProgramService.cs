@@ -19,7 +19,12 @@ namespace Microondas.Core.Services
 
         public List<HeatingProgram> GetAllPrograms()
         {
-            return heatingProgramRepository.GetAllPrograms();
+            return heatingProgramRepository
+                .GetAllPrograms()
+                .Where(x => x != null)
+                .OrderByDescending(x => x.IsDefault)
+                .ThenBy(x => x.Name)
+                .ToList();
         }
 
         public void CreateCustomProgram(CustomProgramRequest request)
@@ -32,9 +37,8 @@ namespace Microondas.Core.Services
                 request.TimeInSeconds,
                 request.Power,
                 request.HeatingChar.Trim(),
-                request.Instructions ?? "",
-                false
-            );
+                string.IsNullOrWhiteSpace(request.Instructions) ? null : request.Instructions.Trim(),
+                false);
 
             heatingProgramRepository.SaveCustomProgram(program);
         }
@@ -67,12 +71,23 @@ namespace Microondas.Core.Services
             if (heatingChar.Length != 1)
                 throw new BusinessException("O caractere de aquecimento deve ter apenas 1 caractere.");
 
-            var alreadyExists = heatingProgramRepository
-                .GetAllPrograms()
-                .Any(x => x.HeatingChar.Equals(heatingChar, StringComparison.OrdinalIgnoreCase));
+            var allPrograms = heatingProgramRepository.GetAllPrograms();
 
-            if (alreadyExists)
+            var charAlreadyExists = allPrograms.Any(x =>
+                x != null &&
+                !string.IsNullOrWhiteSpace(x.HeatingChar) &&
+                x.HeatingChar.Equals(heatingChar, StringComparison.OrdinalIgnoreCase));
+
+            if (charAlreadyExists)
                 throw new BusinessException("Esse caractere de aquecimento já está sendo usado.");
+
+            var nameAlreadyExists = allPrograms.Any(x =>
+                x != null &&
+                !string.IsNullOrWhiteSpace(x.Name) &&
+                x.Name.Equals(request.Name.Trim(), StringComparison.OrdinalIgnoreCase));
+
+            if (nameAlreadyExists)
+                throw new BusinessException("Já existe um programa com esse nome.");
         }
     }
 }

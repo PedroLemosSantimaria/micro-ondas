@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Microondas.Core.Models
+﻿namespace Microondas.Core.Models
 {
-    internal class AuthUser
+    public class AuthUser
     {
+        public string UserName { get; set; }
+        public string PasswordHash { get; set; }
     }
 }

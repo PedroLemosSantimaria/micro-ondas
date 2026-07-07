@@ -1,0 +1,136 @@
+[
+  {
+    "ContainingType": "Microondas.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Microondas.Core.Dtos.Requests.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microondas.Api.Controllers.MicrowaveController",
+    "Method": "Clear",
+    "RelativePath": "api/Microwave/clear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microondas.Api.Controllers.MicrowaveController",
+    "Method": "Current",
+    "RelativePath": "api/Microwave/current",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microondas.Api.Controllers.MicrowaveController",
+    "Method": "PauseOrCancel",
+    "RelativePath": "api/Microwave/pause-cancel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microondas.Api.Controllers.MicrowaveController",
+    "Method": "QuickStart",
+    "RelativePath": "api/Microwave/quick-start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microondas.Api.Controllers.MicrowaveController",
+    "Method": "Resume",
+    "RelativePath": "api/Microwave/resume",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microondas.Api.Controllers.MicrowaveController",
+    "Method": "Start",
+    "RelativePath": "api/Microwave/start",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Microondas.Core.Dtos.Requests.StartHeatingRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microondas.Api.Controllers.MicrowaveController",
+    "Method": "StartProgram",
+    "RelativePath": "api/Microwave/start-program/{programName}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "programName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microondas.Api.Controllers.MicrowaveController",
+    "Method": "Tick",
+    "RelativePath": "api/Microwave/tick",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microondas.Api.Controllers.ProgramsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Programs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Microondas.Api.Controllers.ProgramsController",
+    "Method": "CreateCustom",
+    "RelativePath": "api/Programs/custom",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Microondas.Core.Dtos.Requests.CustomProgramRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

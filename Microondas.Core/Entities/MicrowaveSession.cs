@@ -1,4 +1,4 @@
-﻿using System.Text;
+﻿using Microondas.Core.Enums;
 
 namespace Microondas.Core.Entities
 {
@@ -12,33 +12,43 @@ namespace Microondas.Core.Entities
         public bool IsRunning { get; private set; }
         public bool IsPaused { get; private set; }
         public bool IsFinished { get; private set; }
-        public bool IsPredefinedProgram { get; private set; }
+        public bool IsCancelled { get; private set; }
         public string ProgramName { get; private set; }
+        public bool IsPredefinedProgram { get; private set; }
+        public bool AllowTimeAddition { get; private set; }
+        public MicrowaveStatus Status { get; private set; }
 
         public MicrowaveSession(
             int totalTimeInSeconds,
             int power,
             string heatingChar,
-            bool isPredefinedProgram,
-            string programName = "")
+            bool allowTimeAddition,
+            string programName = null,
+            bool isPredefinedProgram = false)
         {
             TotalTimeInSeconds = totalTimeInSeconds;
             RemainingTimeInSeconds = totalTimeInSeconds;
             Power = power;
             HeatingChar = heatingChar;
+            ProcessText = string.Empty;
+            ProgramName = programName;
             IsPredefinedProgram = isPredefinedProgram;
-            ProgramName = programName ?? "";
-            ProcessText = "";
-            IsRunning = false;
-            IsPaused = false;
-            IsFinished = false;
-        }
+            AllowTimeAddition = allowTimeAddition;
 
-        public void Start()
-        {
             IsRunning = true;
             IsPaused = false;
             IsFinished = false;
+            IsCancelled = false;
+            Status = MicrowaveStatus.Running;
+        }
+
+        public void AddThirtySeconds()
+        {
+            if (!AllowTimeAddition)
+                return;
+
+            RemainingTimeInSeconds += 30;
+            TotalTimeInSeconds += 30;
         }
 
         public void Pause()
@@ -48,6 +58,7 @@ namespace Microondas.Core.Entities
 
             IsRunning = false;
             IsPaused = true;
+            Status = MicrowaveStatus.Paused;
         }
 
         public void Resume()
@@ -57,6 +68,7 @@ namespace Microondas.Core.Entities
 
             IsRunning = true;
             IsPaused = false;
+            Status = MicrowaveStatus.Running;
         }
 
         public void Cancel()
@@ -64,47 +76,43 @@ namespace Microondas.Core.Entities
             IsRunning = false;
             IsPaused = false;
             IsFinished = false;
-            RemainingTimeInSeconds = 0;
-            ProcessText = "";
+            IsCancelled = true;
+            ProcessText = string.Empty;
+            Status = MicrowaveStatus.Cancelled;
         }
 
-        public void AddThirtySeconds()
+        public void MarkAsIdle()
         {
-            RemainingTimeInSeconds += 30;
-            TotalTimeInSeconds += 30;
+            IsRunning = false;
+            IsPaused = false;
+            IsFinished = false;
+            IsCancelled = false;
+            ProcessText = string.Empty;
+            Status = MicrowaveStatus.Idle;
         }
 
         public void Tick()
         {
-            if (!IsRunning || IsPaused || IsFinished)
-                return;
-
-            if (RemainingTimeInSeconds <= 0)
+            if (!IsRunning || RemainingTimeInSeconds <= 0)
                 return;
 
             RemainingTimeInSeconds--;
 
-            ProcessText += BuildHeatingStep();
+            for (var i = 0; i < Power; i++)
+            {
+                ProcessText += HeatingChar;
+            }
+
+            ProcessText += " ";
 
             if (RemainingTimeInSeconds == 0)
             {
                 IsRunning = false;
+                IsPaused = false;
                 IsFinished = true;
-                ProcessText += " Aquecimento concluído";
+                Status = MicrowaveStatus.Finished;
+                ProcessText += "Aquecimento concluído";
             }
-        }
-
-        private string BuildHeatingStep()
-        {
-            var text = new StringBuilder();
-
-            for (var i = 0; i < Power; i++)
-            {
-                text.Append(HeatingChar);
-            }
-
-            text.Append(" ");
-            return text.ToString();
         }
     }
 }

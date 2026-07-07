@@ -1,19 +1,22 @@
-﻿namespace Microondas.Core.Entities
+﻿using System.Text.Json.Serialization;
+
+namespace Microondas.Core.Entities
 {
     public class HeatingProgram
     {
-        public string Name { get; private set; }
-        public string Food { get; private set; }
-        public int TimeInSeconds { get; private set; }
-        public int Power { get; private set; }
-        public string HeatingChar { get; private set; }
-        public string Instructions { get; private set; }
-        public bool IsDefault { get; private set; }
+        public string Name { get; set; }
+        public string Food { get; set; }
+        public int TimeInSeconds { get; set; }
+        public int Power { get; set; }
+        public string HeatingChar { get; set; }
+        public string Instructions { get; set; }
+        public bool IsDefault { get; set; }
 
         public HeatingProgram()
         {
         }
 
+        [JsonConstructor]
         public HeatingProgram(
             string name,
             string food,

@@ -5,9 +5,8 @@ namespace Microondas.Core.Interfaces
 {
     public interface IHeatingProgramRepository
     {
-        List<HeatingProgram> GetDefaultPrograms();
-        List<HeatingProgram> GetCustomPrograms();
         List<HeatingProgram> GetAllPrograms();
+        HeatingProgram GetProgramByName(string name);
         void SaveCustomProgram(HeatingProgram program);
     }
 }

@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Microondas.Core.Dtos.Requests;
+using Microondas.Core.Dtos.Responses;
 
 namespace Microondas.Core.Interfaces
 {
-    internal interface IAuthService
+    public interface IAuthService
     {
+        LoginResponse Login(LoginRequest request);
     }
 }

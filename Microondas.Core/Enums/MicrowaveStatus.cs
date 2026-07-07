@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Microondas.Core.Enums
+﻿namespace Microondas.Core.Enums
 {
-    internal class MicrowaveStatus
+    public enum MicrowaveStatus
     {
+        Idle = 0,
+        Running = 1,
+        Paused = 2,
+        Finished = 3,
+        Cancelled = 4
     }
 }
