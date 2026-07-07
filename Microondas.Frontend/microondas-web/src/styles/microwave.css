@@ -1,0 +1,75 @@
+.status-box {
+  display: grid;
+  gap: 8px;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 16px;
+}
+
+.display-box {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.display-line {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.display-line input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.keyboard-box {
+  margin-bottom: 16px;
+}
+
+.keyboard-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.key-btn,
+.clear-btn,
+.action-row button,
+.top-bar button,
+.default-form button,
+.program-item {
+  border: none;
+  border-radius: 8px;
+  padding: 10px 14px;
+  background: #222;
+  color: white;
+}
+
+.clear-btn {
+  width: 100%;
+}
+
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.process-box {
+  margin-top: 18px;
+}
+
+.process-text {
+  min-height: 80px;
+  white-space: pre-wrap;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+}

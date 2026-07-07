@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Microondas.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36d2aafefe90cdc57ca95a3857f7344f0edd4ef6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ee697b871d1d1d159c68a3000556b0e9d7dac22")]
 [assembly: System.Reflection.AssemblyProductAttribute("Microondas.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Microondas.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

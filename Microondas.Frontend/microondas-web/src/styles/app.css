@@ -1,0 +1,48 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.app-shell {
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 20px;
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.success-box {
+  background: #e8f7e8;
+  border: 1px solid #9fd39f;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 12px;
+}
+
+.error-box {
+  background: #fdeaea;
+  border: 1px solid #e8a0a0;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 12px;
+}

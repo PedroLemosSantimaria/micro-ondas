@@ -378,3 +378,63 @@ StackTrace:
    at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
    at Microondas.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Api\Middlewares\ExceptionMiddleware.cs:line 35
 
+=======================================
+Data: 07/07/2026 19:54:09
+Exception: Não é permitido adicionar tempo em programas pré-definidos.
+StackTrace:
+   at Microondas.Core.Services.MicrowaveService.StartManual(Nullable`1 timeInSeconds, Nullable`1 power) in C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\Services\MicrowaveService.cs:line 35
+   at Microondas.Api.Controllers.MicrowaveController.Start(StartHeatingRequest request) in C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Api\Controllers\MicrowaveController.cs:line 26
+   at lambda_method15(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microondas.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Api\Middlewares\ExceptionMiddleware.cs:line 35
+
+=======================================
+Data: 07/07/2026 19:54:41
+Exception: Não é permitido adicionar tempo em programas pré-definidos.
+StackTrace:
+   at Microondas.Core.Services.MicrowaveService.StartManual(Nullable`1 timeInSeconds, Nullable`1 power) in C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\Services\MicrowaveService.cs:line 35
+   at Microondas.Api.Controllers.MicrowaveController.Start(StartHeatingRequest request) in C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Api\Controllers\MicrowaveController.cs:line 26
+   at lambda_method15(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microondas.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Api\Middlewares\ExceptionMiddleware.cs:line 35
+
+=======================================
+Data: 07/07/2026 19:54:52
+Exception: Não é permitido adicionar tempo em programas pré-definidos.
+StackTrace:
+   at Microondas.Core.Services.MicrowaveService.StartManual(Nullable`1 timeInSeconds, Nullable`1 power) in C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\Services\MicrowaveService.cs:line 35
+   at Microondas.Api.Controllers.MicrowaveController.Start(StartHeatingRequest request) in C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Api\Controllers\MicrowaveController.cs:line 26
+   at lambda_method15(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microondas.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext context) in C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Api\Middlewares\ExceptionMiddleware.cs:line 35
+

@@ -40,6 +40,17 @@ builder.Services
         };
     });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("frontPolicy", policy =>
+    {
+        policy
+            .WithOrigins("http://localhost:5173")
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+    });
+});
+
 builder.Services.AddSingleton<IHeatingProgramRepository, HeatingProgramRepository>();
 builder.Services.AddSingleton<IMicrowaveService, MicrowaveService>();
 builder.Services.AddSingleton<IProgramService, ProgramService>();
@@ -53,7 +64,7 @@ app.UseSwagger();
 app.UseSwaggerUI();
 
 app.UseMiddleware<ExceptionMiddleware>();
-
+app.UseCors("frontPolicy");
 app.UseAuthentication();
 app.UseAuthorization();
 

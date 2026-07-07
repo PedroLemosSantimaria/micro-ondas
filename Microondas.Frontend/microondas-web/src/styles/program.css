@@ -1,0 +1,22 @@
+.program-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.program-item {
+  text-align: left;
+  background: #f7f7f7;
+  color: #222;
+  border: 1px solid #ddd;
+}
+
+.program-item-header {
+  margin-bottom: 8px;
+}
+
+.program-item-body {
+  display: grid;
+  gap: 4px;
+  font-size: 14px;
+}
