@@ -29,3 +29,19 @@ C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Infrastructure
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\refint\Microondas.Infrastructure.dll
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\Microondas.Infrastructure.pdb
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\ref\Microondas.Infrastructure.dll
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\bin\Debug\net10.0\Microondas.Infrastructure.deps.json
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\bin\Debug\net10.0\Microondas.Infrastructure.dll
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\bin\Debug\net10.0\Microondas.Infrastructure.pdb
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\bin\Debug\net10.0\Microondas.Core.dll
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\bin\Debug\net10.0\Microondas.Core.pdb
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\Microondas.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\Microondas.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\Microondas.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\Microondas.Infrastructure.AssemblyInfo.cs
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\Microondas.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\Microondas.Infrastructure.sourcelink.json
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\Microond.820160E3.Up2Date
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\Microondas.Infrastructure.dll
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\refint\Microondas.Infrastructure.dll
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\Microondas.Infrastructure.pdb
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Infrastructure\obj\Debug\net10.0\ref\Microondas.Infrastructure.dll

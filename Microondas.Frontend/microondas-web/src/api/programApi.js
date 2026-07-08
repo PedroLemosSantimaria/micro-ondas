@@ -6,6 +6,6 @@ export async function getPrograms() {
 }
 
 export async function createCustomProgram(programData) {
-  const response = await axiosClient.post("/api/programs", programData);
+  const response = await axiosClient.post("/api/programs/custom", programData);
   return response.data;
 }

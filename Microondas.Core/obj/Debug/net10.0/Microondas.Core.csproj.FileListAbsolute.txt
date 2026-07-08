@@ -21,3 +21,15 @@ C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\obj\Debug
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\refint\Microondas.Core.dll
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.pdb
 C:\Users\Mybox Marcenaria\Documents\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\ref\Microondas.Core.dll
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Core\bin\Debug\net10.0\Microondas.Core.deps.json
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Core\bin\Debug\net10.0\Microondas.Core.dll
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Core\bin\Debug\net10.0\Microondas.Core.pdb
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.AssemblyInfoInputs.cache
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.AssemblyInfo.cs
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.csproj.CoreCompileInputs.cache
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.sourcelink.json
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.dll
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\refint\Microondas.Core.dll
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\Microondas.Core.pdb
+C:\Users\Pedro\OneDrive\Documentos\GitHub\micro-ondas\Microondas.Core\obj\Debug\net10.0\ref\Microondas.Core.dll

@@ -335,23 +335,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\": {},
+    "C:\\Users\\Pedro\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Pedro\\OneDrive\\Documentos\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj",
       "projectName": "Microondas.Infrastructure",
-      "projectPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Mybox Marcenaria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Pedro\\OneDrive\\Documentos\\GitHub\\micro-ondas\\Microondas.Infrastructure\\Microondas.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pedro\\OneDrive\\Documentos\\GitHub\\micro-ondas\\Microondas.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mybox Marcenaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -367,8 +367,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Microondas.Core.csproj": {
-              "projectPath": "C:\\Users\\Mybox Marcenaria\\Documents\\GitHub\\micro-ondas\\Microondas.Core\\Microondas.Core.csproj"
+            "C:\\Users\\Pedro\\OneDrive\\Documentos\\GitHub\\micro-ondas\\Microondas.Core\\Microondas.Core.csproj": {
+              "projectPath": "C:\\Users\\Pedro\\OneDrive\\Documentos\\GitHub\\micro-ondas\\Microondas.Core\\Microondas.Core.csproj"
             }
           }
         }

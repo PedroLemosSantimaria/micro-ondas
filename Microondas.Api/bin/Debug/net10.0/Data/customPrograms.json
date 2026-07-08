@@ -7,5 +7,23 @@
     "HeatingChar": "$",
     "Instructions": "Mexer antes de servir.",
     "IsDefault": false
+  },
+  {
+    "Name": "Almo\u00E7o",
+    "Food": "Comidas",
+    "TimeInSeconds": 67,
+    "Power": 6,
+    "HeatingChar": ")",
+    "Instructions": null,
+    "IsDefault": false
+  },
+  {
+    "Name": "funcionou",
+    "Food": "67",
+    "TimeInSeconds": 10,
+    "Power": 5,
+    "HeatingChar": "\u0022",
+    "Instructions": null,
+    "IsDefault": false
   }
 ]
